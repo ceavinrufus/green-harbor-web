@@ -95,7 +95,7 @@ function App() {
 
   useEffect(() => {
     let map = tt.map({
-      key: "nG6oY1L34rbTfoLz0D205CrB42a3mf8m",
+      key: API_KEY,
       container: mapElement.current,
       center: [mapLongitude, mapLatitude],
       zoom: mapZoom,
